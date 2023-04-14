@@ -60,7 +60,7 @@
         
         <!-- adds MediaPlayerActivity, required for startVideo feature-->
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
-            <activity android:name="com.wikitude.tools.activities.MediaPlayerActivity" android:screenOrientation="landscape">
+            <activity android:name="com.wikitude.tools.activities.MediaPlayerActivity" android:screenOrientation="landscape" android:exported="true">
                 <intent-filter>
                     <action android:name="android.intent.action.VIEW" />
                     <category android:name="android.intent.category.DEFAULT" />
